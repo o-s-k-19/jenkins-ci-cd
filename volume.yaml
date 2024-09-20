@@ -30,6 +30,8 @@ spec:
           operator: In
           values:
           - worker1.plinxore.com
+          - worker2.plinxore.com
+          - worker3.plinxore.com
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
